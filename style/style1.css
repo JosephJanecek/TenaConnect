@@ -1,0 +1,307 @@
+﻿#logo
+{
+    margin-top: 15px;
+	margin-left: 15px;
+    margin-bottom: 10px;
+    width: 172px;
+    height: 107px;
+
+}
+
+#top
+{
+    background-color:navy;
+}
+
+#subtitle
+{
+    font-family: 'Comic Sans MS';
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+/*Menu Bar Styling*/
+#menu
+{
+	background-color: navy;
+	width:100%;
+}
+
+.menuButton
+{
+    border:solid;
+    border-color:white;
+	height: 50px;
+	width: 20px;
+	text-align: center;
+	font-size: 25px;
+    
+}
+
+/*Buletin Board Styling*/
+#bulletinBoard
+{
+	border: 1px;
+	border-color: darkorange;
+	border-style: solid;
+	font-size: 16px;
+	text-align: left;
+	padding: 4px;
+}
+
+.button
+{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	height: 65px;
+	width: 30%;
+	cursor: pointer;
+}
+
+/*Home Buttons Stylings*/
+#messageBox
+{
+    border:1px;
+    border-style:solid;
+    border-color:orange;
+    background-color: orange;
+
+}
+#messageBox:hover {color: orange; background-color:white;}
+#messageBox:hover #messageLink{color: orange; background-color:white;}
+
+#payment
+{
+    border:1px;
+    border-style:solid;
+    border-color:purple;
+	background-color: purple;
+}
+#payment:hover {color: purple; background-color:white;}
+#payment:hover #payLink{color: purple; background-color:white;}
+
+#files
+{
+    border:1px;
+    border-style:solid;
+    border-color:green;
+	background-color: green;
+}
+#files:hover {color: green; background-color:white;}
+#files:hover #fileLink{color: green; background-color:white;}
+
+#account
+{
+    border:1px;
+    border-style:solid;
+    border-color:blue;
+	background-color: blue;
+}
+#account:hover {color: blue; background-color:white;}
+#account:hover #accountLink {color: blue; background-color:white;}
+
+#directory
+{
+    border:1px;
+    border-style:solid;
+    border-color:grey;
+	background-color: grey;
+}
+#directory:hover {color: grey; background-color:white;}
+#directory:hover #tenantLink {color: grey; background-color:white;}
+
+/*Table stylings*/
+#tenantTbl
+{
+	font-size: 20px;
+	width: 100%;
+}
+
+#singleTbl
+{
+	font-size: 20px;
+	width: 100%;
+}
+
+#tInfoTbl
+{
+    background-color: white;
+    width: 100%;
+}
+
+/*All Styling for the table rows individually*/
+.dataRow
+{
+    background-color: aliceblue;
+	border-style: solid;
+	padding: 5px;
+}
+
+    .dataRowHeading
+    {
+        background-color: dimgrey;
+        color: white;
+        border-style: solid;
+        border-color: black;
+	    padding: 5px;
+    }
+
+    .acRowHeading
+    {
+        background-color: darkblue;
+        color: white;
+        border-style: solid;
+        border-color: black;
+	    padding: 5px;
+    }
+
+    .pmRowHeading
+    {
+        background-color: indigo;
+        color: white;
+        border-style: solid;
+        border-color: black;
+	    padding: 5px;
+    }
+
+    .lateRowHeading
+    {
+        background-color: firebrick;
+        color: white;
+        border-style: solid;
+        border-color: black;
+	    padding: 5px;
+    }
+
+    .fileRowHeading
+    {
+        background-color: darkgreen;
+        color: white;
+        border-style: solid;
+        border-color: black;
+	    padding: 5px;
+    }
+
+    .tInfo
+    {
+        font-size: 32px;
+        height: 40px;
+        padding: 5px;
+    }
+
+    .tInfoName
+    {
+        font-size: 32px;
+        height: 40px;
+        padding: 0px;
+    }
+
+    #delAcButton
+    {
+        width: 98%;
+        height: 100%;
+    }
+
+    #tblBtn
+    {
+        background-color: white;
+        padding-left: 10px;
+    }
+
+
+/*Random styling for text*/
+.querySpecific
+{
+	cursor: pointer;
+}
+
+.formText
+{
+    width: 100%;
+}
+
+.payConstants
+{
+    color: black;
+    font-size: 20px;
+}
+
+.paid
+{
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+}
+
+.latePayment
+{
+    border-style: solid;
+    border-color: black;
+	padding: 5px;
+    color: firebrick;
+}
+
+.delbtn
+{
+    color: red !important;
+}
+
+/*Message Box Styling*/
+#messageBox2
+{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+}
+
+#inbox
+{
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+#compose
+{
+    background-color: orangered;
+    font-size: 20px;
+}
+
+#category
+{
+    background-color: darkorange;
+    border-color: darkorange;
+    font-size: 15px;
+}
+
+/* Icon when the collapsible content is shown */
+.btn1:after 
+{
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+	float: left;
+	margin-left: 1px;
+}
+/* Icon when the collapsible content is hidden */
+.btn1.collapsed:after 
+{
+ 	content: "\e080";
+}
+
+/*File system Sytling*/
+#file
+{
+    font-size:20px;
+}
+
+/*Link styling*/
+.menuButton a:link, .menuButton a:visited, .menuButton a:hover, .menuButton a:focus, .menuButton a:active { color: white; background-color: transparent !important; text-decoration: none !important; }
+    .menuButton:hover{ color: navy; background-color: white !important;}
+    .menuButton:hover #menuText{ color: navy !important;}
+.button a:link, .button a:visited, .button a:hover, .button a:focus, .button a:active { color: white; background-color: transparent !important; text-decoration: none !important; }
+.dataRow a:link, .dataRow a:visited, .dataRow a:focus, .dataRow a:active { color: black; background-color: transparent; text-decoration: none; }
+    .querySpecific:hover { text-decoration: underline; }
+.bbAdd a:link, .bbAdd a:visited, .bbAdd a:hover, .bbAdd a:focus, .bbAdd a:active { color: black; background-color: transparent; text-decoration: none; }
+#compose a:link, #compose a:visited, #compose a:hover, #compose a:focus, #compose a:active { color: white; background-color: transparent; text-decoration: none; }
+#inbox a:link, #inbox a:visited, #inbox a:hover, #inbox a:focus, #inbox a:active { color: white; background-color: transparent; text-decoration: none; }
